@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("sai-ma/testcw2")
+        app = docker.build("sai20ma/testcw2")
     }
 
     stage('Test image') {
